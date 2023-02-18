@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+}
+.lemonLogo{
+  width: 150px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 50px;
+}
+
+a{
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.Hero-container{
+  background-color: #495e57;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 450px;
+  position: relative;
+  margin-top: 100px;
+}
+.Hero-h2{
+  color: #F4CE14;
+  padding-top: 10px;
+}
+.Hero-para{
+  color: white;
+  padding-bottom: 10px;
+}
+.hero-para-container{
+  width: 180px;
+}
+.Hero-btn{
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #F4CE14;
+  border: none;
+  cursor: pointer;
+}
+.Hero-pic{
+  width: 400px;
+  height: 480px;
+  position: absolute;
+  top: 240px;
+  right: 400px;
+  border-radius: 10px;
+}
+span{
+  color: #FBDABB;
+  font-weight: bold;
+}
+.specialPics{
+  width: 350px;
+  height: 350px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.special-Top-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  padding: 0 80px;
+}
+.spcial-second-div{
+  display: flex;
+  justify-content: center;
+}
+.special-para-div{
+  width: 350px;
+  padding: 40px 20px;
+}
+.special-price-div{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.special-picPrice-div{
+  width: 350px;
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+  
+}
+.special-order-div{
+  padding: 30px 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+footer ul{
+  list-style-type: none;
+}
+
+.customer-div{
+  height: 400px;
+  background-color: #5e4952;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.customer-second-div{
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLogo{
+  height: 100px;
+}
+
+.chicago-pic{
+  width: 300px;
+  height: 200px;
+  padding-left: 40px;
+}
+.Chicago-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  height: 400px;
+}
+
+.form-div{
+  display: grid;
+  max-width: 200px;
+  gap: "20px";
+  margin: 0 auto auto;
+}
+
+.non-valid{
+  color: red;
+}
+.rating-icon{
+  width: 100px;
+}
+.rating-profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.rating-para-div{
+  width: 250px;
+}
+.rating-para-div p{
+  padding: 10px 10px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input, select{
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.form-h1{
+  height: 100px;
+  background-color: aquamarine;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-submit{
+  padding: 10px 10;
+  border-radius: 10px;
+  background-color: #F4CE14;
+  border: none;
+  cursor: pointer;
+}
+.confirm-booking{
+  text-align: center;
+}
